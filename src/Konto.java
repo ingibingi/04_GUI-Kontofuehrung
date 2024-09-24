@@ -6,6 +6,7 @@ public abstract class Konto {
     private double kontostand;
     private double minKontostand;
     double zins;
+    private String historie;
 
     //Konstruktoren
     public Konto (String kontoinhaber, String kontonummer){
@@ -54,13 +55,14 @@ public abstract class Konto {
         this.kontostand += betrag;
     }
 
-    public void ausgangKonto(double betrag){
-        this.kontostand -= betrag;
-    }
+    public void ausgangKonto(double betrag){ this.kontostand -= betrag; }
 
     public void printKontostand(){
         System.out.println("Aktueller Kontostand: "+this.getKontostand()+"€");
     }
+
+    public void writeHistory(String eintrag) {
+        this.historie += java.time.LocalDateTime.now()+" "+eintrag+"\n"; }
 
 
     //////////////////////////////////
