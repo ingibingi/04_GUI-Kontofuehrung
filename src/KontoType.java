@@ -1,3 +1,7 @@
+//Ingo Schlapschy
+//2aAPC
+//ITL-12
+//Lehrgang: 1
 public enum KontoType {
     GIRONKONTO("Girokonto"),
     KREDITKONTO("Kreditkonto"),

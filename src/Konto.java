@@ -1,3 +1,7 @@
+//Ingo Schlapschy
+//2aAPC
+//ITL-12
+//Lehrgang: 1
 import java.util.ArrayList;
 
 public abstract class Konto {

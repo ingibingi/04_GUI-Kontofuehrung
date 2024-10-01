@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2fb027-17f5-4627-a8d4-3b4e5ab28d2a" name="Changes" comment="Historie mit Timestamp hinzugefügt">
-      <change afterPath="$PROJECT_DIR$/src/KontoType.java" afterDir="false" />
+    <list default="true" id="ef2fb027-17f5-4627-a8d4-3b4e5ab28d2a" name="Changes" comment="Fix Several Bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Girokonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Girokonto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Konto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KontoverwaltungGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/KontoverwaltungGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KontoType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KontoType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KontoverwaltungGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KontoverwaltungGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kreditkonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kreditkonto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sparkonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sparkonto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,27 +37,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.KontoverwaltungGUI.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "false",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "false",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "147",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/ingos/coding/Berufsschule/IT-Labor/04_GUI-Kontofuehrung/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.KontoverwaltungGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;false&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;false&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;147&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ingos/coding/Berufsschule/IT-Labor/04_GUI-Kontofuehrung/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "SVG",
-      "Markdown"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;SVG&quot;,
+      &quot;Markdown&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="KontoverwaltungGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KontoverwaltungGUI" />
@@ -99,12 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727158201419</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix Several Bugs">
+      <option name="closed" value="true" />
+      <created>1727761033467</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727761033467</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Kontoklassen und Grundlayout" />
     <MESSAGE value="Historie mit Timestamp hinzugefügt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Historie mit Timestamp hinzugefügt" />
+    <MESSAGE value="Fix Several Bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Several Bugs" />
   </component>
 </project>

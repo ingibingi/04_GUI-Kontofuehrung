@@ -1,3 +1,7 @@
+//Ingo Schlapschy
+//2aAPC
+//ITL-12
+//Lehrgang: 1
 public class Girokonto extends Konto {
     private final double standardMinKontostand = -1_000;
 
