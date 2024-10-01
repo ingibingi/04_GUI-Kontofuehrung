@@ -1,11 +1,14 @@
+import java.util.ArrayList;
+
 public abstract class Konto {
     //Variablen
-    private String kontotyp;
+    private static ArrayList<Konto> listeAlleKonten;
+    private KontoType kontotyp;
     private String kontoinhaber;
     private String kontonummer;
     private double kontostand;
     private double minKontostand;
-    double zins;
+    private double zins;
     private String historie;
 
     //Konstruktoren
@@ -77,7 +80,7 @@ public abstract class Konto {
     public String getKontonummer() {
         return kontonummer;
     }
-    public String getKontotyp() {
+    public KontoType getKontotyp() {
         return kontotyp;
     }
     public double getZins() {
@@ -85,6 +88,10 @@ public abstract class Konto {
     }
     public double getMinKontostand() {
         return minKontostand;
+    }
+
+    public static ArrayList<Konto> getListeAlleKonten(){
+        return listeAlleKonten;
     }
 
     //////////////////////////////////
@@ -102,7 +109,7 @@ public abstract class Konto {
         this.kontostand = kontostand;
     }
 
-    public void setKontotyp(String kontotyp) {
+    public void setKontotyp(KontoType kontotyp) {
         this.kontotyp = kontotyp;
     }
 
@@ -113,4 +120,6 @@ public abstract class Konto {
     public void setMinKontostand(double minKontostand) {
         this.minKontostand = minKontostand;
     }
+
+
 }
